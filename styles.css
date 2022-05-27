@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #343a40;
+}
+
+.logo {
+    padding: 3rem;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.columns {
+    margin: 3rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.column {
+    flex: 33.33%;
+}
